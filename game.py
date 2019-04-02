@@ -18,7 +18,6 @@ class Game:
             else:
                 return False
         #return True
-
         return self.__check_dictionary(word)
 
     def __check_dictionary(self, word):
